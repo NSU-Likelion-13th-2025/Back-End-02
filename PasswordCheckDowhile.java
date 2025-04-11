@@ -15,6 +15,6 @@ public class PasswordCheckDowhile {
         } while (password != 1234);
 
         System.out.println("비밀번호가 올바릅니다. 접근 승인!"); // 1234를 입력하면 ""안의 문장을 출력.
-        sc.close();
+        sc.close(); // Scanner 수행 이후 sc.close()로 닫음.
     }
 }
