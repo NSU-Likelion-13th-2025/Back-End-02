@@ -1,3 +1,5 @@
+package session1_to_3;
+
 public class Main_3 {
     public static void main(String[] args) {
         int a = 5; // 00000101 = 2^0*1 + 2^2*1 = 1 + 4

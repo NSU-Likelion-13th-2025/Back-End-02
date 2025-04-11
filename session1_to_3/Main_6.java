@@ -1,3 +1,5 @@
+package session1_to_3;
+
 public class Main_6 {
     public static void main(String[] args) {
         int a = 5;

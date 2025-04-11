@@ -1,3 +1,5 @@
+package session4;
+
 public class Homework1 {
     public static void main(String[] args) {
         int[] score = new int[10]; // 배열 선언 및 생성. 10개의 int 값을 저장할 수 있는 배열 생성.

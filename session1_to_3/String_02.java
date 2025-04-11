@@ -1,3 +1,5 @@
+package session1_to_3;
+
 public class String_02 {
     public static void main(String[] args) {
         System.out.println(1 + "안녕");

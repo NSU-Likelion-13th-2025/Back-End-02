@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package session4;
 
 public class ForLoopExample {
     public static void main(String[] args) {

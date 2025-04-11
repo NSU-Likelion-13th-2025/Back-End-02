@@ -1,3 +1,5 @@
+package session1_to_3;
+
 public class Main_2 {
     public static void main(String[] args) {
         int a = 5, b = 0; // 변수 선언 및 초기화
