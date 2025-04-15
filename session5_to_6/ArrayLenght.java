@@ -14,7 +14,9 @@ public class ArrayLenght {
         a[8] = 9;
         a[9] = 10;
 
-        for (int i = 0; i < a.length; i++) { // 초기 i = 0. i < a array 항목수(10)가 만족할 때까지 i는 1씩 증가하며 반복해서
+        for (int i = 0; i < a.length; i++) {
+            // 배열 길이 : 배열 참조 변수.length
+            // 초기 i = 0. i < a array 항목수(0-9 = 10)가 만족할 때까지 i는 1씩 증가하며 반복해서
             System.out.println(a[i]); // a array의 항목을 하나씩 출력한다.
         }
     }
