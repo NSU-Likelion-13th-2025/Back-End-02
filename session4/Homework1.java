@@ -8,7 +8,7 @@ public class Homework1 {
         score[1] = 92;
         score[2] = 78;
         score[3] = 65;
-        score[4] = 55;
+        score[4] = -55;
         score[5] = 90;
         score[6] = 73;
         score[7] = 88;
@@ -35,14 +35,23 @@ public class Homework1 {
         }
 
         for (int i = 0; i < 10; i++) {
+            if (score[i] < 0||score[i] > 100) {
+                System.out.println(score[i] + "값은 맞지 않는 값이예요.");
+                continue;
+            }
             if (max < score[i]) {
                 max = score[i];
-            //if (max = 100){
-               // break;
+            }
+            if (score[i] == 100) {
+                break;
             }
         }
 
         for (int i = 0; i < 10; i++) {
+            if (score[i] < 0||score[i] > 100) {
+                System.out.println(score[i] + "값은 맞지 않는 값이예요.");
+                continue;
+            }
             if (min > score[i]) {
                 min = score[i];
             }
