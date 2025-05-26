@@ -2,7 +2,19 @@ package session4;
 
 public class Homework1 {
     public static void main(String[] args) {
+
         int[] score = new int[10]; // 배열 선언 및 생성. 10개의 int 값을 저장할 수 있는 배열 생성.
+
+        // 배열 선언 및 생성 방법
+
+        // 방법 1. 배열 생성과 동시에 항목 값을 저장
+        // int[] score = {85, 92, 78, ... , 100};
+        // 자료형[] 변수 = {값0, 값1, 값2, ... , 값 9};
+
+        // 방법 2. 배열 생성 후 나중에 항몫 값을 저장
+        // int[] score = new int[10];
+        // 자료형[] 변수 = new 자료형[항목수];
+
 
         score[0] = 85; // 배열 score의 1번째 요소에 85를 저장. index는 0부터 시작
         score[1] = 92;
