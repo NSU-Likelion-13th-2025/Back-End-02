@@ -47,7 +47,7 @@ public class StudentTest {
 
                     int sum = 0;
                     while (true) {
-                        int sum += scores[i];
+                        int sum +=scores[i];
                         i++;
                     }
 
@@ -59,6 +59,7 @@ public class StudentTest {
                 case 5:
                     System.out.println("프로그램 종료");
                     break;
+                }
             }
         }
 
