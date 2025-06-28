@@ -18,7 +18,6 @@ public class Homework1_1 {
             if (score[i] > max) { //최대값
                 max = score[i];
             }
-            \\
 
         }
     }
