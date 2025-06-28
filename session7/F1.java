@@ -15,7 +15,7 @@ public class F1 {
     }
 
     public static void main(String[] args) {        // 지역 변수
-        // 상위 중괄호가 매서든
+        // 상위 중괄호가 매서드
         int i = 10;
         System.out.println(i);
     }
