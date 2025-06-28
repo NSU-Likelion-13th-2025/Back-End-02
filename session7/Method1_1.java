@@ -19,12 +19,4 @@ public class Method1_1 {
         int sum2 = x + y;
         System.out.println("결과2 출력:" + sum2);
     }
-
-    //방법2
-    public static int add(int a, int b) {
-        System.out.println(a + "+" + b + " 연산 수행");
-        int sum = a + b;
-        System.out.println(a + "+" + b + " 결과 = " + sum);
-        return sum;
-    }
 }
